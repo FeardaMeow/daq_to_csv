@@ -16,5 +16,9 @@ Download the read_daq.py
 ## Usage
 The script takes two command line arguements. First, '-dir' the directory where the DAQ files are located. Second, '-elemlist' a text file with the variable names to save to csv, with each variable name on a seperate line. The script will save a CSV at the same folder level where it finds DAQ files.
 ```
-python read_daq.py -dir data_dir -elemlist elemlist.txt
+$ python read_daq.py -dir test_sample -elemlist elemlist.txt
+Trying to read Voice_20150526095528.daq
+Trying to read Voice_20150521095047.daq
+Trying to read Voice_20150526093624.daq
+Trying to read Voice_20150521093225.daq
 ```
